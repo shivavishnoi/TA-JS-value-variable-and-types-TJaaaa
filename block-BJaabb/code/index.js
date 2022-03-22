@@ -55,7 +55,7 @@ Use `prompt` to take two numbers from user and store it in variable `numA` and `
 - if the input value is anything like `true`, `null` or `undefined` alert saying `Enter a valid value`.
 
 
-Example:
+Example 1:
 
 21, 21; // true
 "hello", -21; // false
