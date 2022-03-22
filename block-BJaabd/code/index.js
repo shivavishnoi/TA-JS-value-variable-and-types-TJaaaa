@@ -21,13 +21,23 @@ n = 7 => output: heeeeeeello
 👇
 */
 // [Your code goes here]
-
+// let num = +prompt(`enter number of e`)
+// let e = ""
+// for (let i = 0; i < num; i++) {
+//   e += `e`
+// }
+// alert(`h${e}llo`)
 /*
 Program to calculate the sum of first n natural numbers(1,2,3...n are known as natural numbers). Prompt user to enter n (using `prompt`) then based on input provided calculate and show result in `alert`.
 👇
 */
 // [Your code goes here]
-
+// let sum = 0
+// let n = +prompt(`n`)
+// for (let i = 0; i <= n; i++) {
+//   sum += i
+// }
+// alert(sum)
 /* Switch Statement
 
  🎖Using switch statement do the following
@@ -46,7 +56,16 @@ Take a number value from user and alert the message if it matches the conditions
 
 */
 // [Your code goes here]
-
+// let num = +prompt(`num`)
+// switch (true) {
+//   case (num == 1): alert(`one`)
+//     break;
+//   case (num == 2): alert(`two`)
+//     break;
+//   case (num == 3): alert(`three`)
+//     break;
+//   default: alert(`enter valid`)
+// }
 /*
 🎖Using switch statement do the following
 
