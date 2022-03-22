@@ -32,7 +32,14 @@
   - `Salary > 50000` tax is 30 %
 
 */
-
+let Salary = prompt("enter salary")
+switch (Salary) {
+  case (Salary <= 20000): alert(Salary - Salary * 10 / 100)
+    break;
+  case (Salary <= 40000): alert(Salary - (Salary * (20 / 100)))
+    break;
+  default: alert(`40%`)
+}
 //  if..else vs switch
 
 /* 8.
@@ -55,3 +62,11 @@ Implement the condition give below using`if..else` and`switch` statement.
   - If`freezing` alert`Get your sweeter on`
   - Anything else should alert`Not a valid input`
 */
+// let weather = prompt(`what is condition of weather outside`)
+// switch (weather) {
+//   case `sunny`: alert(`wear a t-shirt`)
+//     break;
+//   case `rainy`: alert(`take rainccoat`)
+//     break;
+//   default: alert(`not valid`)
+// }
